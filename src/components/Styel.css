@@ -100,3 +100,18 @@ color:rgba(17,17,17,0.849) ;
     }
    
 }
+.cart-table tbody tr {
+    height: 50px; /* Adjust as necessary */
+}
+.cart-table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cardsdetails .card {
+    height: 500px; /* Adjust as necessary */
+}
+.prdct-qty-btn, .qty-input-box {
+    width: 30px;
+    height: 30px;
+}
