@@ -1,6 +1,7 @@
 {
   "name": "addtocart",
   "version": "0.1.0",
+  "homepage": "https://dhruv9909.github.io/Add-to-Cart/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
