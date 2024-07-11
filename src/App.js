@@ -5,10 +5,10 @@ import Headers from './components/Headers';
 import CartDetails from './components/CartDetails'; 
 
 const App = () => {
-  return (<Router>
+  return (<Router basename='Add-to-Cart'>
     <Headers />
    <Routes>
-    <Route path='/Add-to-Cart' element={<Home />} />
+    <Route path='/' element={<Home />} />
     <Route path='/cart' element={<CartDetails />} />
     </Routes>
     </Router>
